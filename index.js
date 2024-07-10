@@ -120,9 +120,9 @@ if (persona1.edad > persona2.edad) {
 
 
 // 8 
-let numeroIncognita = Math.floor(Math.random() * 10) + 1;
+// let numeroIncognita = Math.floor(Math.random() * 10) + 1;
+let numeroIncognita = 5;
 let numeroIngresado;
-let intentos = 3;
 
 numeroIngresado = parseInt(prompt("Adivina el número (entre 1 y 10):"))
 if (numeroIngresado === numeroIncognita) {
@@ -133,7 +133,6 @@ if (numeroIngresado === numeroIncognita) {
     } else {
       console.log("El número ingresado es menor, vuelve a intentarlo.")
     }
-    intentos--
 
     numeroIngresado = parseInt(prompt("Adivina el número (entre 1 y 10):"))
     if (numeroIngresado === numeroIncognita) {
@@ -144,7 +143,6 @@ if (numeroIngresado === numeroIncognita) {
       } else {
         console.log("El número ingresado es menor, vuelve a intentarlo.")
       }
-      intentos--
 
       numeroIngresado = parseInt(prompt("Adivina el número (entre 1 y 10):"))
       if (numeroIngresado === numeroIncognita) {
