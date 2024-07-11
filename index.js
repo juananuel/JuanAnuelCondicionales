@@ -79,213 +79,213 @@ if (persona1.edad > persona2.edad) {
 
 // 6 *** capacitado conducir *** 
 
-// let nombre = prompt("Ingrese su nombre: ")
-// let edad = parseInt(prompt("Ingrese su edad: "))
-// let altura = parseInt(prompt("Ingrese su altura: "))
-// let vision = parseInt(prompt("Ingrese su visión (evaluando de 1 a 10): "))
+let nombre = prompt("Ingrese su nombre: ")
+let edad = parseInt(prompt("Ingrese su edad: "))
+let altura = parseInt(prompt("Ingrese su altura: "))
+let vision = parseInt(prompt("Ingrese su visión (evaluando de 1 a 10): "))
 
-// if (edad >= 18 && altura > 150 && vision >= 8) {
-//   alert(nombre + " esta capacitado para conducir")
-// } else {
-//   alert(nombre + " no esta capacitado para conducir")
-// }
+if (edad >= 18 && altura > 150 && vision >= 8) {
+  alert(nombre + " esta capacitado para conducir")
+} else {
+  alert(nombre + " no esta capacitado para conducir")
+}
 
 
 // 7 *** pase vip o normal ***
 
-// let nombre = prompt("Ingrese su nombre: ")
-// let pase = prompt("Ingrese su pase (vip o normal):").toLowerCase()
-// let poseeEntrada = prompt("¿Posee entrada? (si o no)").toLowerCase() 
+let nombre = prompt("Ingrese su nombre: ")
+let pase = prompt("Ingrese su pase (vip o normal):").toLowerCase()
+let poseeEntrada = prompt("¿Posee entrada? (si o no)").toLowerCase() 
 
-// if (nombre.toLowerCase() === 'juan' || pase === 'vip') {
-//   alert("Bienvenido " + nombre.toUpperCase())
-// } else if (poseeEntrada === 'si') {
-//     let usarEntrada = prompt("¿Desea utilizar su entrada? (si o no)").toLowerCase() 
-//     if (usarEntrada === 'si') {
-//       alert("Bienvenido " + nombre.toUpperCase())
-//     } else {
-//       alert("Gracias por usar nuestros servicios")
-//     }
-// } else {
-//     let deseaComprar = prompt("¿Desea comprar una entrada? (si o no)").toLowerCase() 
-//     if (deseaComprar === 'si') {
-//       let dineroDisponible = parseFloat(prompt("Ingrese el dinero disponible: "))
-//       if (dineroDisponible >= 1000) {
-//         alert("Venta de entrada positivo. Bienvenido " + nombre.toUpperCase())
-//       } else {
-//         alert("Lo siento, no posee suficiente dinero para comprar una entrada.")
-//       }
-//     } else {
-//       alert("Gracias por usar nuestros servicios")
-//     }
-// }
+if (nombre.toLowerCase() === 'juan' || pase === 'vip') {
+  alert("Bienvenido " + nombre.toUpperCase())
+} else if (poseeEntrada === 'si') {
+    let usarEntrada = prompt("¿Desea utilizar su entrada? (si o no)").toLowerCase() 
+    if (usarEntrada === 'si') {
+      alert("Bienvenido " + nombre.toUpperCase())
+    } else {
+      alert("Gracias por usar nuestros servicios")
+    }
+} else {
+    let deseaComprar = prompt("¿Desea comprar una entrada? (si o no)").toLowerCase() 
+    if (deseaComprar === 'si') {
+      let dineroDisponible = parseFloat(prompt("Ingrese el dinero disponible: "))
+      if (dineroDisponible >= 1000) {
+        alert("Venta de entrada positivo. Bienvenido " + nombre.toUpperCase())
+      } else {
+        alert("Lo siento, no posee suficiente dinero para comprar una entrada.")
+      }
+    } else {
+      alert("Gracias por usar nuestros servicios")
+    }
+}
 
 
 // 8 *** juego adivinanza ***
 
-// let numeroIncognita = Math.floor(Math.random() * 10) + 1;
+let numeroIncognita = Math.floor(Math.random() * 10) + 1;
 
-// let numeroIncognita = 5;
-// let numeroIngresado;
+let numeroIncognita = 5;
+let numeroIngresado;
 
-// numeroIngresado = parseInt(prompt("Adivina el número (entre 1 y 10):"))
-// if (numeroIngresado === numeroIncognita) {
-//   alert("¡Ganaste, has adivinado el número!")
-// } else {
-//     if (numeroIngresado > numeroIncognita) {
-//       alert("El número ingresado es mayor, vuelve a intentarlo.")
-//     } else {
-//       alert("El número ingresado es menor, vuelve a intentarlo.")
-//     }
+numeroIngresado = parseInt(prompt("Adivina el número (entre 1 y 10):"))
+if (numeroIngresado === numeroIncognita) {
+  alert("¡Ganaste, has adivinado el número!")
+} else {
+    if (numeroIngresado > numeroIncognita) {
+      alert("El número ingresado es mayor, vuelve a intentarlo.")
+    } else {
+      alert("El número ingresado es menor, vuelve a intentarlo.")
+    }
 
-//     numeroIngresado = parseInt(prompt("Adivina el número (entre 1 y 10):"))
-//     if (numeroIngresado === numeroIncognita) {
-//       alert("¡Ganaste, has adivinado el número!")
-//     } else {
-//       if (numeroIngresado > numeroIncognita) {
-//         alert("El número ingresado es mayor, vuelve a intentarlo.")
-//       } else {
-//         alert("El número ingresado es menor, vuelve a intentarlo.")
-//       }
+    numeroIngresado = parseInt(prompt("Adivina el número (entre 1 y 10):"))
+    if (numeroIngresado === numeroIncognita) {
+      alert("¡Ganaste, has adivinado el número!")
+    } else {
+      if (numeroIngresado > numeroIncognita) {
+        alert("El número ingresado es mayor, vuelve a intentarlo.")
+      } else {
+        alert("El número ingresado es menor, vuelve a intentarlo.")
+      }
 
-//       numeroIngresado = parseInt(prompt("Adivina el número (entre 1 y 10):"))
-//       if (numeroIngresado === numeroIncognita) {
-//         alert("¡Ganaste, has adivinado el número!")
-//       } else {
-//         if (numeroIngresado > numeroIncognita) {
-//           alert("El número ingresado es mayor.")
-//       } else {
-//         alert("El número ingresado es menor.")
-//       }
-//         alert("Lo siento, se han agotado tus intentos.")
-//       }
-//     }
-// }
+      numeroIngresado = parseInt(prompt("Adivina el número (entre 1 y 10):"))
+      if (numeroIngresado === numeroIncognita) {
+        alert("¡Ganaste, has adivinado el número!")
+      } else {
+        if (numeroIngresado > numeroIncognita) {
+          alert("El número ingresado es mayor.")
+      } else {
+        alert("El número ingresado es menor.")
+      }
+        alert("Lo siento, se han agotado tus intentos.")
+      }
+    }
+}
 
 
 
 // 9 *** edad ***
 
-// let edad = parseInt(prompt("Ingrese su edad: "))
+let edad = parseInt(prompt("Ingrese su edad: "))
 
-// if (edad >= 0 && edad <= 12) {
-//   alert("Eres un infante.")
-// } else if (edad >= 13 && edad <= 18) {
-//   alert("Eres un adolescente.")
-// } else if (edad >= 19 && edad <= 45) {
-//   alert("Eres un mayor joven.")
-// } else if (edad > 45 && edad <= 100) {
-//   alert("Eres un anciano.")
-// } else if (edad > 100) {
-//   alert("¿En realidad tienes esa edad? xD")
-// } else {
-//   alert("Edad ingresada no válida.")
-// }
+if (edad >= 0 && edad <= 12) {
+  alert("Eres un infante.")
+} else if (edad >= 13 && edad <= 18) {
+  alert("Eres un adolescente.")
+} else if (edad >= 19 && edad <= 45) {
+  alert("Eres un mayor joven.")
+} else if (edad > 45 && edad <= 100) {
+  alert("Eres un anciano.")
+} else if (edad > 100) {
+  alert("¿En realidad tienes esa edad? xD")
+} else {
+  alert("Edad ingresada no válida.")
+}
 
 
 // 10 *** piedra papel tijera ***
 
-// let jugador1 = prompt("Jugador 1, ingrese PIEDRA, PAPEL o TIJERAS: ").toUpperCase()
-// let jugador2 = prompt("Jugador 2, ingrese PIEDRA, PAPEL o TIJERAS: ").toUpperCase()
+let jugador1 = prompt("Jugador 1, ingrese PIEDRA, PAPEL o TIJERAS: ").toUpperCase()
+let jugador2 = prompt("Jugador 2, ingrese PIEDRA, PAPEL o TIJERAS: ").toUpperCase()
 
-// if ((jugador1 !== "PIEDRA" && jugador1 !== "PAPEL" && jugador1 !== "TIJERAS") ||
-//   (jugador2 !== "PIEDRA" && jugador2 !== "PAPEL" && jugador2 !== "TIJERAS")) {
-//     alert("Uno de los jugadores ha hecho un ingreso incorrecto, repetir juego")
-// } else {
-//   if (jugador1 === jugador2){
-//     alert("Empate en jugada")
-//   } else if ((jugador1 === "PIEDRA" && jugador2 === "TIJERAS") || 
-//             (jugador1 === "PAPEL" && jugador2 === "PIEDRA") ||
-//             (jugador1 === "TIJERAS" && jugador2 === "PAPEL")){
-//     alert("Jugador 1 Gana!")
-//   } else{
-//     alert("Jugador 2 Gana!")
-//   }
-// }
+if ((jugador1 !== "PIEDRA" && jugador1 !== "PAPEL" && jugador1 !== "TIJERAS") ||
+  (jugador2 !== "PIEDRA" && jugador2 !== "PAPEL" && jugador2 !== "TIJERAS")) {
+    alert("Uno de los jugadores ha hecho un ingreso incorrecto, repetir juego")
+} else {
+  if (jugador1 === jugador2){
+    alert("Empate en jugada")
+  } else if ((jugador1 === "PIEDRA" && jugador2 === "TIJERAS") || 
+            (jugador1 === "PAPEL" && jugador2 === "PIEDRA") ||
+            (jugador1 === "TIJERAS" && jugador2 === "PAPEL")){
+    alert("Jugador 1 Gana!")
+  } else{
+    alert("Jugador 2 Gana!")
+  }
+}
 
 
 // 11 *** color ingresado ***
 
-// let color = prompt("Ingresa un color: ").toLocaleLowerCase()
+let color = prompt("Ingresa un color: ").toLocaleLowerCase()
 
-// switch(color){
-//   case "blanco":
-//     alert("Falta de color")
-//     break
-//   case "negro":
-//     alert("Falta de color")
-//     break
-//   case "verde":
-//     alert("El color de la naturaleza")
-//     break
-//   case "azul":
-//     alert("El color del agua")
-//     break
-//   case "amarillo":
-//     alert("El color del sol")
-//     break
-//   case "rojo":
-//     alert("El color del fuego")
-//     break
-//   case "marron":
-//     alert("El color de la tierra")
-//     break
-//   default:
-//     alert("Excelente elección, no lo teníamos pensado")
-// }
+switch(color){
+  case "blanco":
+    alert("Falta de color")
+    break
+  case "negro":
+    alert("Falta de color")
+    break
+  case "verde":
+    alert("El color de la naturaleza")
+    break
+  case "azul":
+    alert("El color del agua")
+    break
+  case "amarillo":
+    alert("El color del sol")
+    break
+  case "rojo":
+    alert("El color del fuego")
+    break
+  case "marron":
+    alert("El color de la tierra")
+    break
+  default:
+    alert("Excelente elección, no lo teníamos pensado")
+}
 
 
 // *** 12 seleccion operacion ***
 
-// let valor1 = parseFloat(prompt("Ingrese un primer numero entero: "))
-// let valor2 = parseFloat(prompt("Ingrese un segundo numero entero: "))
-// let operacion = parseInt(prompt("Ingrese una de las opciones en número (1 - 4): \n1 - Suma \n2 - Resta \n3 - Multiplicación \n4 - División \n"))
+let valor1 = parseFloat(prompt("Ingrese un primer numero entero: "))
+let valor2 = parseFloat(prompt("Ingrese un segundo numero entero: "))
+let operacion = parseInt(prompt("Ingrese una de las opciones en número (1 - 4): \n1 - Suma \n2 - Resta \n3 - Multiplicación \n4 - División \n"))
 
-// let suma = valor1+valor2
-// let resta = valor1-valor2
-// let multiplicacion = valor1*valor2
-// let division = valor1/valor2
-// switch(operacion){
-//   case 1:
-//     alert("La suma es: " + suma)
-//     break
-//   case 2:
-//     alert("La resta es: " + resta)
-//     break
-//   case 3:
-//     alert("La multiplicación es: " + multiplicacion)
-//     break
-//   case 4:
-//     if (valor2 <= 0){
-//       alert("Error! No se puede dividir entre 0 un número menor")
-//     } else{
-//       alert("La división es: " + division)
-//     }
-//     break
-//   default:
-//     alert("Opción incorrecta, vuelva a intentar")
-//     break
-// }
+let suma = valor1+valor2
+let resta = valor1-valor2
+let multiplicacion = valor1*valor2
+let division = valor1/valor2
+switch(operacion){
+  case 1:
+    alert("La suma es: " + suma)
+    break
+  case 2:
+    alert("La resta es: " + resta)
+    break
+  case 3:
+    alert("La multiplicación es: " + multiplicacion)
+    break
+  case 4:
+    if (valor2 <= 0){
+      alert("Error! No se puede dividir entre 0 un número menor")
+    } else{
+      alert("La división es: " + division)
+    }
+    break
+  default:
+    alert("Opción incorrecta, vuelva a intentar")
+    break
+}
 
 
 // 13 *** console table ***
 
-// let nombre = prompt("Ingrese su nombre: ")
-// let apellido = prompt("Ingrese su apellido: ")
-// let nacionalidad = prompt("Ingrese su nacionalidad: ")
-// let documento = parseInt(prompt("Ingrese su número de documento de identidad: "))
+let nombre = prompt("Ingrese su nombre: ")
+let apellido = prompt("Ingrese su apellido: ")
+let nacionalidad = prompt("Ingrese su nacionalidad: ")
+let documento = parseInt(prompt("Ingrese su número de documento de identidad: "))
 
-// let confirmacion = prompt(`Los datos ingresados fueron: \nNombre: ${nombre} \nApellido: ${apellido} \nNacionalidad: ${nacionalidad} \nDocumento: ${documento} \n¿Los datos son correctos? (si o no): `).toLowerCase()
+let confirmacion = prompt(`Los datos ingresados fueron: \nNombre: ${nombre} \nApellido: ${apellido} \nNacionalidad: ${nacionalidad} \nDocumento: ${documento} \n¿Los datos son correctos? (si o no): `).toLowerCase()
 
-// if (confirmacion == "si"){
-//   let dni = {
-//     nombre: nombre,
-//     apellido: apellido,
-//     nacionalidad: nacionalidad,
-//     documento: documento  
-//   }
-//   console.table(dni)
-//   console.log("Registro exitoso!")
-// } else{
-//   console.log("Vuelva a intentarlo en un mes")
-// }
+if (confirmacion == "si"){
+  let dni = {
+    nombre: nombre,
+    apellido: apellido,
+    nacionalidad: nacionalidad,
+    documento: documento  
+  }
+  console.table(dni)
+  console.log("Registro exitoso!")
+} else{
+  console.log("Vuelva a intentarlo en un mes")
+}
