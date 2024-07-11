@@ -124,8 +124,7 @@ if (nombre.toLowerCase() === 'juan' || pase === 'vip') {
 // 8 *** juego adivinanza ***
 
 let numeroIncognita = Math.floor(Math.random() * 10) + 1;
-
-let numeroIncognita = 5;
+// let numeroIncognita = 5;
 let numeroIngresado;
 
 numeroIngresado = parseInt(prompt("Adivina el número (entre 1 y 10):"))

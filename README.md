@@ -1,1 +1,1 @@
-A partir del ejercicio 6 están comentados en bloque los ejercicios para evitar salten y confundir el programa con las variables, etc. Hay que descomentar ejercicio por ejercicio para ejecutarlos y evitar problemas. 
+A partir del ejercicio 6 puede que estén comentados en bloque los ejercicios para evitar salten y confundir el programa con las variables, etc. Habría que descomentar ejercicio por ejercicio para ejecutarlos y evitar problemas. 
